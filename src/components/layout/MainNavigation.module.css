@@ -1,0 +1,30 @@
+.header {
+  background-color: rgb(187, 7, 67);
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.headText {
+  text-align: center;
+  margin-right: auto;
+  flex-grow: 5;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav {
+  flex-grow: 3;
+}
+.navList {
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #c3c2c2;
+  font-size: 15px;
+}

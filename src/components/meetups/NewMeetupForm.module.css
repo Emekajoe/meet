@@ -1,0 +1,28 @@
+.form {
+  background-color: #fff;
+  max-width: 60rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.176);
+}
+
+label {
+  color: gray;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 0;
+  border: 0.1rem solid rgba(128, 128, 128, 0.367);
+  border-radius: 0.2rem;
+  height: 4rem;
+}
+
+textarea {
+  height: fit-content;
+}

@@ -1,0 +1,46 @@
+.container{
+    margin-bottom: 4rem;
+}
+.imgContainer{
+    height: 20rem;
+    margin-bottom: 13rem;
+
+    img{
+        height: 300px;
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+.items{
+    margin: 0 auto;
+    text-align: center;
+    
+    &Title{
+        margin:14px 0 ;
+        font-weight: 700;
+    }
+    &Address{
+        margin-bottom: 1rem;
+        font-weight: 200;
+
+    }
+
+}
+
+.btn{
+    width: 100%;
+  
+    
+    &Favorite{
+        border: 0;
+        width: fit-content;
+        padding: 1rem;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3rem;
+        background-color: #fff;
+        border: .1rem solid #BA0743;
+        border-radius: .5rem;
+    }
+}
